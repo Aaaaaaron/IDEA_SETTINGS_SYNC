@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="GenericSQL" injector-id="java">
+      <display-name>RequestMapping.value (org.springframework.web.bind.annotation)</display-name>
+      <place><![CDATA[psiMethod().withName("value").withParameters().definedInClass("org.springframework.web.bind.annotation.RequestMapping")]]></place>
+    </injection>
+  </component>
+</application>

@@ -1,0 +1,26 @@
+<templateSet group="JSP">
+  <template name="op" value="out.println($END$);" description="out.println()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="&lt;&lt;" value="&lt;%&#10;    $END$&#10;%&gt;" description="scripts" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="&lt;&lt;!" value="&lt;%!&#10;    $END$&#10;%&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="&lt;&lt;=" value="&lt;%= $END$ %&gt;" description="JS" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

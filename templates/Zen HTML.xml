@@ -1,0 +1,8 @@
+<templateSet group="Zen HTML">
+  <template name="dc" value="&lt;div class = &quot;$VAR0$&quot;&gt;" description="&lt;div class = &quot;&quot;&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

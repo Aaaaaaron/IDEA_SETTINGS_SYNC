@@ -1,0 +1,7 @@
+<templateSet group="output">
+  <template name="serr" value="System.err.println(&quot;$END$&quot;);" description="Prints a string to System.err" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

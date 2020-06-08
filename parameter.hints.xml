@@ -1,0 +1,21 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="io.kyligence.kap.metadata.acl.RowACL.Cond.Cond(value)" />
+        <added pattern="io.kyligence.kap.metadata.acl.RowACL.Cond.Cond(type,leftExpr,rightExpr)" />
+        <added pattern="io.kyligence.kap.metadata.acl.RowACL.Cond.toString(column,columnType)" />
+      </blacklist>
+    </blacklists>
+    <disabledLanguages>
+      <language id="JAVA" />
+      <language id="TypeScript" />
+      <language id="Angular2Html" />
+      <language id="Scala" />
+      <language id="JavaScript" />
+      <language id="kotlin" />
+      <language id="Groovy" />
+      <language id="SQL" />
+    </disabledLanguages>
+  </component>
+</application>

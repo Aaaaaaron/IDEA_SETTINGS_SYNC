@@ -1,0 +1,11 @@
+<templateSet group="JavaScript">
+  <template name="$" value="$(&quot;$VAR$&quot;)" description="jquery" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSON" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>
